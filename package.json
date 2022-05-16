@@ -1,0 +1,31 @@
+{
+  "name": "provadot",
+  "version": "1.0.0",
+  "description": "Iniciando com Gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/GabrielaSAP/provaDot.git"
+  },
+  "keywords": [
+    "sass",
+    "gulp",
+    "git"
+  ],
+  "author": "Gabriela Pestana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielaSAP/provaDot/issues"
+  },
+  "homepage": "https://github.com/GabrielaSAP/provaDot#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0"
+  }
+}
