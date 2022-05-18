@@ -22,6 +22,19 @@ header {
     padding-left: 20%;
     padding-right: 20%;
 }
+article {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+article > figure{
+    margin-top:30px;
+    padding:20px;
+    margin-left:0;
+    margin-right:0;
+}
+img {
+    width: 100%;
+}
 header strong {
     font-weight: 400;
 }
@@ -45,14 +58,20 @@ section:last-of-type, article > figure{
         color: #546130;
         font-size: 3rem;
         margin-bottom: 0.5rem;
+        margin-top: 2rem;
     }
     header {
         width: inherit;
+        padding-left:0;
+        padding-right:0;
     }
     header strong {
         color: #2d3b09;
         font-size: 1.2rem;
         font-weight: 600;
+    }
+    article > figure {
+        padding:15px;
     }
     .gp-landing-page{
         height:100vh;
@@ -72,5 +91,13 @@ section:last-of-type, article > figure{
         width:inherit;
         height:inherit;
         display:block;
+    }
+    .gp-list {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-left: 5rem;
+        padding-right:5rem;
+        padding-top:2rem;
+        padding-bottom: 3rem;
     }
 }
