@@ -17,3 +17,8 @@ Envio:
 - Todos os arquivos fontes devem ser enviados.
 
 Arquivos da prova: https://drive.google.com/drive/u/0/folders/1DmRUa4OKJ1uFJxCYFc-utdUcxgbJvDkC
+
+Fontes utilizadas:
+- Roboto Bold
+- Roboto Regular
+- Roboto Italic
