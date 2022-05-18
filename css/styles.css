@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2{
+    text-transform: uppercase;
+}
+
+h1 {
+    color: #546130;
+}
+
+header p {
+    color: #2d3b09;
+}
+
+section,footer, section > figure{
+    color: #fff;
+    background-color: #454545;
+}
+
+section:last-of-type, article > figure{
+    background-color: #6f6f6f;
+}
