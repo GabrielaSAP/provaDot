@@ -52,6 +52,29 @@ section:last-of-type, article > figure{
     width: 100%;
 }
 
+.gp-article figure {
+    overflow: hidden;
+    padding: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.gp-article figure, .gp-article img {
+    border-radius: 50em;
+    height: 85vw;
+}
+.gp-article h2{
+    font-size:2rem;
+}
+
+footer p {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
 /* Somente Desktop */
 @media screen and (min-width: 800px) {
     h1 {
@@ -93,11 +116,27 @@ section:last-of-type, article > figure{
         display:block;
     }
     .gp-list {
-        display:grid;
         grid-template-columns: 1fr 1fr 1fr;
+    }
+    .gp-list, .gp-article{
         padding-left: 5rem;
         padding-right:5rem;
         padding-top:2rem;
         padding-bottom: 3rem;
+        display:grid;
+    }
+    .gp-article {
+        grid-template-columns: 1fr 2fr;
+        align-items: center;
+        text-align:left;
+    }
+    .gp-article figure, .gp-article img {
+        height: 24vw;
+    }
+    .gp-article article{
+        padding-left: 4rem;
+    }
+    .gp-article h2{
+        font-size: 2rem;
     }
 }
